@@ -1,7 +1,6 @@
 {
-    "homepage": "https://kenzie-academy-brasil-developers.github.io/portifolio-dfap2",
     "name": "kenzie-portfolio-2",
-    "private": false,
+    "private": true,
     "version": "0.0.0",
     "scripts": {
         "dev": "vite",
