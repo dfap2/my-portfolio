@@ -49,15 +49,14 @@ export const Home = (): JSX.Element => {
                             </Text>
                         </Flex>
                         <Text as="h1" type="heading1" color="grey5">
-                            I{" "}
+                            I am a{" "}
                             <Text as="span" type="heading1" color="brand1">
-                                love
+                                FullStack Web Developer
                             </Text>{" "}
-                            creating and{" "}
+                            and love creating and developing{" "}
                             <Text as="span" type="heading1" color="brand1">
-                                developing
+                                projects
                             </Text>{" "}
-                            projects
                         </Text>
                         <Text type="body1" color="grey2">
                             Discover here in this environment, created

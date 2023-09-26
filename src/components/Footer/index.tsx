@@ -3,7 +3,7 @@ import { Text } from "@/styles/Text";
 import { Footer as FooterWrapper } from "./style";
 import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaDiscord } from "react-icons/fa";
 import { Button } from "@/styles/Buttons";
 // import { HandEffect } from "../HandEffect";
 
@@ -39,6 +39,15 @@ export const Footer = (): JSX.Element => {
                         gap: "$2",
                     }}
                 >
+                    <Button
+                        className="discord"
+                        type="circle"
+                        as="a"
+                        target="_blank"
+                        href={`https://discordapp.com/users/david.actis`}
+                    >
+                        <FaDiscord />
+                    </Button>
                     <Button
                         className="linkedin"
                         type="circle"
